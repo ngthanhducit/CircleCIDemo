@@ -26,6 +26,10 @@ class CircleCIDemoUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        let i = 0
+        
+        XCTAssert(i == 0, "I Support to be 0")
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
