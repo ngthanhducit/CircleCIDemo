@@ -27,7 +27,7 @@ class CircleCIDemoUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        let i = 0
+        let i = 1
         
         XCTAssert(i == 0, "I Support to be 0")
 
